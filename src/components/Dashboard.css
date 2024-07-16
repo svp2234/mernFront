@@ -1,0 +1,64 @@
+/* Dashboard.css */
+.dashboard {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard h1 {
+    color: #343a40;
+    margin-bottom: 20px;
+  }
+  
+  .dishes-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .dishes-list li {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .dishes-list li:hover {
+    transform: translateY(-5px);
+  }
+  
+  .dishes-list img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .dishes-list h2 {
+    font-size: 1.25em;
+    color: #495057;
+  }
+  
+  .dishes-list p {
+    color: #6c757d;
+  }
+  
+  .dishes-list button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .dishes-list button:hover {
+    background-color: #0056b3;
+  }
+  
